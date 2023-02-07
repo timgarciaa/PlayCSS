@@ -1,0 +1,5 @@
+html, body {
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+  scroll-behavior: smooth;
+}
