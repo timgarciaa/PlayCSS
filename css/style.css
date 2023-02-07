@@ -1,5 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
 html, body {
   font-family: 'Poppins', sans-serif;
-  color: #111;
+  color: #ffffff;
   scroll-behavior: smooth;
+  background-color: #111111;
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.card-area {
+  background-color: brown;
+  height: 80vh;
+  display: grid;
+  place-items: center;
+
+}
+
+.card {
+  aspect-ratio: 5/7;
+  background-color: azure;
+  position: absolute;
+}
+
+.big-card {
+  width: 30vmin;
+  border-radius: 1vmin;
+}
+
+.little-card {
+  width: 12vmin;
+  border-radius: 2vmin;
+  background-color: aquamarine;
+}
+
+.big-card:nth-child(1) {
+  background-color: rgba(0, 0, 255, 0.5);
+  transform: translateX(-10%) rotate(-1deg);
+}
+
+.big-card:nth-child(2) {
+  background-color: rgba(0, 0, 255, 0.5);
+  transform: rotate(2deg);
+}
+
+.big-card:nth-child(1) {
+  background-color: rgba(0, 0, 255, 0.5);
+  transform: translateX(-6%) rotate(-3deg);
+}
+
+.big-card:nth-child(1) {
+  background-color: rgba(0, 0, 255, 0.5);
+  transform: translate(10%, 3%) rotate(5deg);
 }
